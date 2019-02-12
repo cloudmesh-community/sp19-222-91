@@ -29,3 +29,16 @@ Installed requirements in testENV pyenv
 #2/7/19
 Learned more about .yaml files and how they specify how to use
 URLs to tell the server what to do.
+
+#2/11/19
+Cleaned up Github repo.
+Learned to read and plot data from CSV files using pandas.
+Useful commands:
+
+.iloc()
+.select_dtypes()
+.boxplot()
+
+Need project proposal by Thursday
+
+#2/14/19
