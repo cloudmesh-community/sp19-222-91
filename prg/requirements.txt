@@ -1,0 +1,2 @@
+Markdown==3.0.1
+prime==1.0.0
