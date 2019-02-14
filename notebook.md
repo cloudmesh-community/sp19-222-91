@@ -42,3 +42,4 @@ Useful commands:
 Need project proposal by Thursday
 
 #2/14/19
+Went through the swagger tutorial.
