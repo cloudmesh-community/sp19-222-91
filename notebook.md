@@ -47,6 +47,19 @@ Went through the swagger tutorial.
 #2/19/19
 Learned about MapReduce and HDFS.
 
-#2/21/19
+#3/7/19
+Make sure we can visualize the data using endpoints.
+Downloading a file from Google Drive by copying the URL and writing it to a file.
+url = ; #get the url somehow, make sure it is a directly downloadable link
+def download_data(url, filename):
+    r = requests.get(url, allow_redirects=True)
+    open(filename, 'wb').write(r.content)
 
-#2/
+def download(output):
+    output_file = 'data/'+output
+    download_data(url=url, filename=output_file)
+    return str(output) + " Downloaded"
+
+Reading in the data:
+read_csv with pandas, select_dtypes(), permutations(), math.floor(),
+Figure out how to upload an input file to predict outputs.
