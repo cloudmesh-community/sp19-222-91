@@ -63,3 +63,8 @@ def download(output):
 Reading in the data:
 read_csv with pandas, select_dtypes(), permutations(), math.floor(),
 Figure out how to upload an input file to predict outputs.
+
+#3/19/2019
+Did a sample k-nearest classification project with cars. We used Euclidean distance formula to calculate the nearest neighbors.
+We normalized the data's features so that no individual column has an artificial weight. For instance, in our example, the car year is 3 orders of magnitude more significant
+than the transmission, but normalizing the columns keep the importance of each feature in relation to the other features constant. 
