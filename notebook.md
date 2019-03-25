@@ -78,4 +78,4 @@ was shown to be very significant. The Euclidean distance for each point in the
 dataset adjusted quite a bit after standardizing each feature column. This was
 shown in the results: originally the Jeep Wrangler was the car with the least
 distance to the Chevy Malibu, but after standardization, the Honda Civic was
-closest.  
+closest. The standardization also changes the k value.
