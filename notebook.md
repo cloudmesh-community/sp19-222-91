@@ -79,3 +79,7 @@ dataset adjusted quite a bit after standardizing each feature column. This was
 shown in the results: originally the Jeep Wrangler was the car with the least
 distance to the Chevy Malibu, but after standardization, the Honda Civic was
 closest. The standardization also changes the k value.
+
+#3/26/2019
+Learned how to create references to subdirectories in project folder in python.
+This should help keep the files organized in the project directory.
