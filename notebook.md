@@ -83,3 +83,11 @@ closest. The standardization also changes the k value.
 #3/26/2019
 Learned how to create references to subdirectories in project folder in python.
 This should help keep the files organized in the project directory.
+
+#3/28/2019
+Important docker commands:
+	docker build -t tag-name .
+	docker run -p 5000:5000 tag-name
+	docker container ls -all
+	docker ps
+	docker kill container-id
