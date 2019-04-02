@@ -91,3 +91,7 @@ Important docker commands:
 	docker container ls -all
 	docker ps
 	docker kill container-id
+
+#4/2/2019
+Learned about logistic and linear regression, as well as kmeans. Learned about
+the benefits of data visualization.
