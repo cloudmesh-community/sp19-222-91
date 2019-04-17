@@ -87,7 +87,7 @@ This should help keep the files organized in the project directory.
 # 3/28/2019
 Important docker commands:
 	docker build -t tag-name .
-	docker run -p 5000:5000 tag-name
+	docker run -p 5000:5000 tag-name #only if port 5000 is exposed in Dockerfile
 	docker container ls -all
 	docker ps
 	docker kill container-id
@@ -102,3 +102,8 @@ Explored more clustering examples and using WebPlotViz.
 # 4/9/2019
 Learned about various forms of optimization algorithms, greedy algorithms, and
 Markov methods.
+
+# 4/16/2019
+Did an overview of the packaging structure that we will use to facilitate the 
+process of creating a Dockerfile. Starting making a Dockerfile for our service
+package.
